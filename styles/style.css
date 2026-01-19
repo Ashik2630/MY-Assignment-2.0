@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shard related styles */
+body{
+  font-family: "Inter", sans-serif;
+  background-color: #1A0B2E;
+  color: white;
+}
+.display-flex{
+    display: flex;
+}
+.btn {
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    color:  #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* main styles */
+.navbar{
+    max-width: 992px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+
+}
+
+.nav-title{
+    font-size: 3rem;
+}
+
+.title-style {
+  background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+  color: transparent;
+  background-clip: text;
+}
+.nav-lists{
+    align-items: center;
+    gap: 32px;
+}
+.nav-list{
+    list-style: none;
+}
+.item{
+    text-decoration: none;
+    color: white;
+}
+.nav-menu{
+    display: none;
+}
+
+
+
+
+/* Responsive related styles */
+@media screen and (max-width:576px) {
+    .navbar{
+        margin: 20px;
+    }
+    .nav-lists,
+    .btn{
+        display: none;
+    }
+    .nav-menu{
+        display: inline; 
+    }
+}
