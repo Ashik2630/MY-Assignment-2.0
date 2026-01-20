@@ -75,6 +75,11 @@ body{
 .banner-container{
     text-align: center;
 }
+.banner-image {
+    position: relative;
+    display: inline-block;
+}
+
 .banner-image img {
     max-width: 350px;
     max-height: 350px;
@@ -85,14 +90,17 @@ body{
 }
 .banner-img-2{
     position: absolute;
-    top: 27%;
-    left: 47%;
+    top:35%;
+    left: 35%;
+    cursor: pointer;
     transition: transform 1s;
 }
+
 .banner-img-2:hover{
-   background-color: #250D44;
-    transform: rotate(500deg) scale(1.5) ;
+    background-color: #250D44;
+    transform: rotate(1800deg) scale(1.5);
 }
+
 .banner-bag{
     position: absolute;
     background-color: #00FF88;
@@ -100,8 +108,8 @@ body{
     padding: 8px 16px;
     border-radius: 20px;
     font-size: 1.2rem;
-    top: 21%;
-    left: 55%;
+    top: 17%;
+    left: 65%;
 
 
 }
@@ -413,8 +421,8 @@ hr{
 
    .banner-img-2 {
     position: absolute;
-    top: 27%;
-        left: 38%;
+    top: 32%;
+    left: 28%;
     }
     .banner-title {
         font-size: 2.5rem;
