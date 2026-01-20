@@ -98,7 +98,7 @@ body{
 
 .banner-img-2:hover{
     background-color: #250D44;
-    transform: rotate(1800deg) scale(1.5);
+    transform: rotate(1000deg) scale(1.5);
 }
 
 .banner-bag{
@@ -110,8 +110,6 @@ body{
     font-size: 1.2rem;
     top: 17%;
     left: 65%;
-
-
 }
 
 .banner-text{
@@ -412,23 +410,39 @@ hr{
         display: inline; 
     }
     .banner{
-    height: 566px;
-    }
+    height: 466px;
+    background-image: url("../assets/Image.png");
+    background-repeat: no-repeat;
+    background-position: center;  
+    }  
     .banner-image img {
     max-width: 250px;
     max-height: 250px;
    }
-
+   .banner-img-1{
+    position: relative;
+    margin-top: 14px;
+}
    .banner-img-2 {
     position: absolute;
-    top: 32%;
-    left: 28%;
+    top: 30%;
+    left: 35%;
+    width: 80px;
+    height: 100px;
+    
     }
+    .banner-bag{
+    top: 5%;
+}
     .banner-title {
         font-size: 2.5rem;
     }
     .Spotify{
         display: inline;
+    }
+    
+    .about-text{
+        margin-top: 80px;
     }
     .about-title {
         font-size: 2rem;
@@ -474,6 +488,9 @@ hr{
     .feature-title{
         font-size: 2.5rem;
     }
+    .host-container{
+        margin-bottom: 10px;
+    }
     .host-content{
         flex-direction: column;
         overflow: hidden;
@@ -492,17 +509,19 @@ hr{
         margin: 15px;
     }
     .footer{
-       height: auto;          
-    padding-top: 60px;
-    padding-bottom: 40px;
-    background-size: cover; 
-    }
+    background-image: url("../assets/foot-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    text-align: center;
+    margin: 10px;
+    
+}
     .foot-title{
         font-size: 3rem;
     }
     .foot-icon-container{
         grid-template-columns: repeat(2, 1fr);
-        margin: 10px;
+        margin-left: 60px;
         gap: 10px;
     }
     
